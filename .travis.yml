@@ -1,0 +1,10 @@
+# https://guides.gradle.org/executing-gradle-builds-on-travisci/#configure_travis_ci
+language: java
+install: true
+
+os: linux
+dist: trusty
+jdk: oraclejdk8
+
+script:
+  - ./test.sh
